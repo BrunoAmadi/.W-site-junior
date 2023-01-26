@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+  margin-top: 60px;
+}
+
+.container-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+}
+.container-menu a {
+  color: var(--DarkGrayishBlue);
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: var(--fontParagraf);
+  font-weight: 700;
+  border-radius: 4px;
+}
+.container-menu a:hover {
+  background-color: var(--SoftRed);
+  color: var(--Off-white);
+  transition: 0.4s;
+}
+.menu-icon-open {
+  display: none;
+}

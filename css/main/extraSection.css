@@ -1,0 +1,32 @@
+.extra-Info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.extra-Item {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(50px, 120px) 1fr;
+  gap: 20px;
+}
+.itemText {
+  display: grid;
+  gap: 10px;
+  align-items: start;
+}
+
+.itemText span {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--GrayishBlue);
+}
+.itemText h3 {
+  font-size: 1.25rem;
+}
+.itemText p {
+  font-size: var(--fontParagraf);
+  color: var(--DarkGrayishBlue);
+}
+.section-extra {
+  padding: 20px 0px;
+}

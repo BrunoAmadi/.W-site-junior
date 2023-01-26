@@ -1,0 +1,38 @@
+.aside {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px;
+  background-color: var(--VeryDarkBlue);
+}
+.aside-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--Off-white);
+  padding: 10px;
+}
+.aside-item a {
+  color: var(--Off-white);
+  font-weight: 700;
+}
+.aside-item p {
+  color: var(--GrayishBlue);
+  line-height: 1.4;
+}
+.aside-item:nth-of-type(n + 2) {
+  border-top: 2px solid var(--GrayishBlue);
+  padding-top: 30px;
+}
+
+.aside-item:hover {
+  background-color: var(--VeryDarkBlueII);
+  transition: 0.3s;
+}
+.aside span {
+  color: var(--softOrange);
+  font-weight: 700;
+  font-size: 2.75rem;
+  padding: 10px;
+}

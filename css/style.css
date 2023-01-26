@@ -1,0 +1,20 @@
+/* GLOBAIS */
+@import url("./globais/globais.css");
+
+/* UTILIDADES */
+@import url("./utilidades/cores-Letras.css");
+@import url("./utilidades/utilidades.css");
+
+/* HEADER */
+@import url("./header/header.css");
+
+/* MAIN */
+@import url("./main/main.css");
+@import url("./main/aside.css");
+@import url("./main/extraSection.css");
+
+/* MENU HAMBURGO */
+@import url("./menuHamburgo/menuHamb.css");
+
+/* MEDIA QUERY */
+@import url("./utilidades/mediaQuery.css");
