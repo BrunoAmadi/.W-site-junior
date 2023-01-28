@@ -103,4 +103,8 @@
   .itemText p {
     font-size: 0.875rem;
   }
+  .img-retro img{
+    object-fit: cover;
+    height: 100%;
+  }
 }

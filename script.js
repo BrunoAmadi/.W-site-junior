@@ -4,7 +4,7 @@ const criarMenu = new createMenu(
   "#menu img",
   "#xMenu img",
   "#modalContainer",
-  ".nav"
+  "#xMenu"
 );
 
 const clickOpenMenu = criarMenu.openM("click");
